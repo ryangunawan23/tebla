@@ -1,0 +1,142 @@
+*{
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    position: relative;
+      background-image:url(bgv3.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 500px;
+      align-items: center;
+}
+
+.logo{
+    display: inline-block;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.testdrive{
+    border-style: solid;
+    border-width: 5px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+    color: black;
+}
+
+.testdrive:hover{
+    border-style: solid;
+    border-width: 5px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+    color: rgba(83, 80, 80, 0.808);
+}
+
+.textHead{
+    display: flex;
+    justify-content: flex-end;
+    text-align: left;
+    width: 30%;
+    margin-left: 65%;
+    font-size: 25px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    margin-bottom: 5px;
+    margin-right: 7%;
+}
+
+.bot13{
+    padding: 10px;
+    text-align: center;
+}
+
+.bot2{
+    text-align: center;
+    padding: 10px;
+    border-left: white;
+    border-right: white;
+    border-left-style: solid;
+    border-right-style: solid;
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+      background-position: center;
+      height: 500px;
+      color: black;
+      align-items: center;
+      padding-top: 25px;
+}
+
+.model{
+    display: inline-block;
+      width: 20%;
+      margin-left: 1.7%;
+      text-align: center;
+}
+
+.modelPic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgMod{
+    width: 300px;
+    text-align: center;
+}
+
+.modelText{
+    text-align: center;
+}
+
+.khsTD{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+footer{
+    background-color: black;
+    height: 200px;
+}
+
+.socMed{
+    text-align: center;
+    padding-top: 10px;
+  }
+
+.footext{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.imgFoot{
+    width: 200px;
+    text-align: center;
+    margin: 20px;
+}
+
+
